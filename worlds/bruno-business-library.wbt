@@ -16,8 +16,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.38586206576907156 0.2542764109712101 -0.8868224021888625 2.0838417365932393
-  position 28.407088559070324 31.671497763155283 21.770224806969306
+  orientation -0.1301893933141969 0.9452591237142471 0.29922551846969025 0.8627767698204981
+  position 34.19642168549304 5.818500571396451 20.634705840631863
 }
 TexturedBackgroundLight {
 }
@@ -1772,6 +1772,90 @@ Table {
   rotation 0 0 1 1.5708
   name "table(12)"
   size 1.35 3 0.74
+}
+Table {
+  translation 60 11 0
+  rotation 0 0 1 1.5708
+  name "table(13)"
+  size 1 2 0.74
+}
+Table {
+  translation 60 13.75 0
+  rotation 0 0 1 1.5708
+  name "table(14)"
+  size 1 2 0.74
+}
+Table {
+  translation 58 11 0
+  rotation 0 0 1 1.5708
+  name "table(15)"
+  size 1 2 0.74
+}
+Table {
+  translation 56 11 0
+  rotation 0 0 1 1.5708
+  name "table(16)"
+  size 1 2 0.74
+}
+Table {
+  translation 54 11 0
+  rotation 0 0 1 1.5708
+  name "table(17)"
+  size 1 2 0.74
+}
+Table {
+  translation 52 11 0
+  rotation 0 0 1 1.5708
+  name "table(18)"
+  size 1 2 0.74
+}
+Table {
+  translation 50 11 0
+  rotation 0 0 1 1.5708
+  name "table(19)"
+  size 1 2 0.74
+}
+Table {
+  translation 48 11 0
+  rotation 0 0 1 1.5708
+  name "table(20)"
+  size 1 2 0.74
+}
+Table {
+  translation 58 13.75 0
+  rotation 0 0 1 1.5708
+  name "table(21)"
+  size 1 2 0.74
+}
+Table {
+  translation 56 13.75 0
+  rotation 0 0 1 1.5708
+  name "table(22)"
+  size 1 2 0.74
+}
+Table {
+  translation 54 13.75 0
+  rotation 0 0 1 1.5708
+  name "table(23)"
+  size 1 2 0.74
+}
+Table {
+  translation 52 13.75 0
+  rotation 0 0 1 1.5708
+  name "table(24)"
+  size 1 2 0.74
+}
+Table {
+  translation 50 13.75 0
+  rotation 0 0 1 1.5708
+  name "table(25)"
+  size 1 2 0.74
+}
+Table {
+  translation 48 13.75 0
+  rotation 0 0 1 1.5708
+  name "table(26)"
+  size 1 2 0.74
 }
 Chair {
   translation 48.8 22.5 0
