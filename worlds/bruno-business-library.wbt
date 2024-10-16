@@ -15,8 +15,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.6299191550721075 0.022160946740163064 -0.7763444792827614 3.0869754365510156
-  position 5.12266108322987 21.33593720746376 15.725180617225988
+  orientation -0.3965114012466325 0.5866408264411068 0.7061382650968059 1.5270564518525351
+  position 61.52793852862902 -7.811313179948511 26.32586042357033
 }
 TexturedBackgroundLight {
 }
@@ -1491,6 +1491,11 @@ Table {
   translation 67.3 1.7 0
   name "table(6)"
   size 1.35 3 0.74
+}
+Table {
+  translation 67.3 9.77 0
+  name "table(7)"
+  size 0.6 1.5 0.74
 }
 Chair {
   translation 48.8 22.5 0
