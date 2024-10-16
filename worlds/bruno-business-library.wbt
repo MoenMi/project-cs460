@@ -6,12 +6,17 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/DoorLever.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Window.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+IMPORTABLE EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/Chair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidPipe.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/RoundTable.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidBox.proto"
 
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.5520354796338447 -0.5632562352614544 -0.6148164300541458 4.262107679435318
-  position 35.760893697058414 8.822281465939692 97.31971453541269
+  orientation 0.5643458600853963 -0.5693743723665475 -0.5977679937038067 4.2269689397343475
+  position 36.59854662600418 8.488477600818342 112.38437802643823
 }
 TexturedBackgroundLight {
 }
@@ -154,6 +159,30 @@ Wall {
   rotation 0 0 1 1.5708
   name "wall(58)"
   size 0.2 1.6 2.4
+}
+Wall {
+  translation 42.125 2.5 0
+  rotation 0 0 1 1.5708
+  name "wall(7)"
+  size 0.2 0.95 2.4
+}
+Wall {
+  translation 27.875 2.5 0
+  rotation 0 0 1 1.5708
+  name "wall(5)"
+  size 0.2 0.95 2.4
+}
+Wall {
+  translation 38.875 2.5 0
+  rotation 0 0 1 1.5708
+  name "wall(9)"
+  size 0.2 0.95 2.4
+}
+Wall {
+  translation 31.125 2.5 0
+  rotation 0 0 1 1.5708
+  name "wall(59)"
+  size 0.2 0.95 2.4
 }
 Wall {
   translation 28.2 -1 0
@@ -348,12 +377,6 @@ Wall {
   translation 42.5 2.39 0
   name "wall(71)"
   size 0.2 0.41 2.4
-}
-Wall {
-  translation 29.5 2.5 0
-  rotation 0 0 1 1.5708
-  name "wall(5)"
-  size 0.2 4 2.4
 }
 Wall {
   translation 30.8 -1 0
@@ -1035,6 +1058,7 @@ Window {
   size 0.2 1 2.4
   bottomWallHeight 0.5
   windowHeight 1.7
+  windowSillSize 0 0
 }
 Window {
   translation 67.3 0 0
@@ -1043,6 +1067,7 @@ Window {
   size 0.2 1 2.4
   bottomWallHeight 0.5
   windowHeight 1.7
+  windowSillSize 0 0
 }
 Window {
   translation 70 4.25 0
@@ -1358,7 +1383,17 @@ Window {
   translation 40.5 2.5 0
   rotation 0 0 1 1.5708
   name "window(54)"
-  size 0.2 3.8 2.4
+  size 0.2 2.3 2.4
+  bottomWallHeight 1
+  windowHeight 1.2
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation 29.5 2.5 0
+  rotation 0 0 1 1.5708
+  name "window(55)"
+  size 0.2 2.3 2.4
   bottomWallHeight 1
   windowHeight 1.2
   frameSize 0.01 0.01 0.01
@@ -1421,4 +1456,529 @@ Window {
   size 0.2 1 2.4
   bottomWallHeight 0.5
   windowHeight 1.7
+}
+SolidPipe {
+  translation 35 13 0.5
+  height 1
+  radius 2
+  thickness 0.05
+}
+Table {
+  translation 48.35 23 0
+  rotation 0 0 1 1.5708
+  size 1.15 2 0.74
+}
+Table {
+  translation 64.6 1.7 0
+  name "table(5)"
+  size 1.35 3 0.74
+}
+Table {
+  translation 67.3 1.7 0
+  name "table(6)"
+  size 1.35 3 0.74
+}
+Chair {
+  translation 48.8 22.5 0
+  rotation 0 0 1 1.5708
+}
+Chair {
+  translation 48.8 23.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(2)"
+}
+Chair {
+  translation 47.9 22.5 0
+  rotation 0 0 1 1.5708
+  name "chair(1)"
+}
+Chair {
+  translation 47.9 23.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(3)"
+}
+Chair {
+  translation 64 2.7 0
+  name "chair(4)"
+}
+Chair {
+  translation 66.7 2.7 0
+  name "chair(10)"
+}
+Chair {
+  translation 64 1.7 0
+  name "chair(5)"
+}
+Chair {
+  translation 66.7 1.7 0
+  name "chair(11)"
+}
+Chair {
+  translation 64 0.7 0
+  name "chair(6)"
+}
+Chair {
+  translation 66.7 0.7 0
+  name "chair(12)"
+}
+Chair {
+  translation 65.2 0.7 0
+  rotation 0 0 1 3.14159
+  name "chair(7)"
+}
+Chair {
+  translation 67.9 0.7 0
+  rotation 0 0 1 3.14159
+  name "chair(13)"
+}
+Chair {
+  translation 65.2 1.7 0
+  rotation 0 0 1 3.14159
+  name "chair(8)"
+}
+Chair {
+  translation 67.9 1.7 0
+  rotation 0 0 1 3.14159
+  name "chair(14)"
+}
+Chair {
+  translation 65.2 2.7 0
+  rotation 0 0 1 3.14159
+  name "chair(9)"
+}
+Chair {
+  translation 67.9 2.7 0
+  rotation 0 0 1 3.14159
+  name "chair(15)"
+}
+Chair {
+  translation 47.3 17.9 0
+  rotation 0 0 1 1.5708
+  name "chair(16)"
+}
+Chair {
+  translation 51.5 17.9 0
+  rotation 0 0 1 1.5708
+  name "chair(22)"
+}
+Chair {
+  translation 55.7 17.9 0
+  rotation 0 0 1 1.5708
+  name "chair(23)"
+}
+Chair {
+  translation 59.9 17.9 0
+  rotation 0 0 1 1.5708
+  name "chair(24)"
+}
+Chair {
+  translation 47.3 19.7 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(17)"
+}
+Chair {
+  translation 51.5 19.7 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(25)"
+}
+Chair {
+  translation 55.7 19.7 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(26)"
+}
+Chair {
+  translation 59.9 19.7 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(27)"
+}
+Chair {
+  translation 46.5238 19.2354 0
+  rotation 0 0 -1 0.523598
+  name "chair(18)"
+}
+Chair {
+  translation 50.7238 19.2354 0
+  rotation 0 0 -1 0.523598
+  name "chair(28)"
+}
+Chair {
+  translation 54.9238 19.2354 0
+  rotation 0 0 -1 0.523598
+  name "chair(30)"
+}
+Chair {
+  translation 59.1238 19.2354 0
+  rotation 0 0 -1 0.523598
+  name "chair(32)"
+}
+Chair {
+  translation 46.5238 18.3646 0
+  rotation 0 0 1 0.5236
+  name "chair(19)"
+}
+Chair {
+  translation 50.7238 18.3646 0
+  rotation 0 0 1 0.5236
+  name "chair(29)"
+}
+Chair {
+  translation 54.9238 18.3646 0
+  rotation 0 0 1 0.5236
+  name "chair(31)"
+}
+Chair {
+  translation 59.1238 18.3646 0
+  rotation 0 0 1 0.5236
+  name "chair(33)"
+}
+Chair {
+  translation 48.0762 19.2354 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(20)"
+}
+Chair {
+  translation 52.2762 19.2354 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(34)"
+}
+Chair {
+  translation 56.4762 19.2354 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(36)"
+}
+Chair {
+  translation 60.6762 19.2354 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(38)"
+}
+Chair {
+  translation 48.0762 18.3646 0
+  rotation 0 0 1 2.61799
+  name "chair(21)"
+}
+Chair {
+  translation 52.2762 18.3646 0
+  rotation 0 0 1 2.61799
+  name "chair(35)"
+}
+Chair {
+  translation 56.4762 18.3646 0
+  rotation 0 0 1 2.61799
+  name "chair(37)"
+}
+Chair {
+  translation 60.6762 18.3646 0
+  rotation 0 0 1 2.61799
+  name "chair(39)"
+}
+Chair {
+  translation 40 18.1 0
+  rotation 0 0 1 1.5708
+  name "chair(40)"
+}
+Chair {
+  translation 35 18.1 0
+  rotation 0 0 1 1.5708
+  name "chair(41)"
+}
+Chair {
+  translation 30 18.1 0
+  rotation 0 0 1 1.5708
+  name "chair(42)"
+}
+Chair {
+  translation 37.5 21.1 0
+  rotation 0 0 1 1.5708
+  name "chair(60)"
+}
+Chair {
+  translation 32.5 21.1 0
+  rotation 0 0 1 1.5708
+  name "chair(61)"
+}
+Chair {
+  translation 40 19.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(43)"
+}
+Chair {
+  translation 35 19.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(44)"
+}
+Chair {
+  translation 30 19.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(45)"
+}
+Chair {
+  translation 37.5 22.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(58)"
+}
+Chair {
+  translation 32.5 22.9 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(59)"
+}
+Chair {
+  translation 39.2182 19.4266 0
+  rotation 0 0 -1 0.523598
+  name "chair(46)"
+}
+Chair {
+  translation 36.7182 22.4266 0
+  rotation 0 0 -1 0.523598
+  name "chair(62)"
+}
+Chair {
+  translation 31.7182 22.4266 0
+  rotation 0 0 -1 0.523598
+  name "chair(63)"
+}
+Chair {
+  translation 34.2182 19.4266 0
+  rotation 0 0 -1 0.523598
+  name "chair(50)"
+}
+Chair {
+  translation 29.2182 19.4266 0
+  rotation 0 0 -1 0.523598
+  name "chair(51)"
+}
+Chair {
+  translation 39.2182 18.5734 0
+  rotation 0 0 1 0.5236
+  name "chair(47)"
+}
+Chair {
+  translation 34.2182 18.5734 0
+  rotation 0 0 1 0.5236
+  name "chair(52)"
+}
+Chair {
+  translation 29.2182 18.5734 0
+  rotation 0 0 1 0.5236
+  name "chair(53)"
+}
+Chair {
+  translation 36.7182 21.5734 0
+  rotation 0 0 1 0.5236
+  name "chair(64)"
+}
+Chair {
+  translation 31.7182 21.5734 0
+  rotation 0 0 1 0.5236
+  name "chair(65)"
+}
+Chair {
+  translation 40.7818 19.4266 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(48)"
+}
+Chair {
+  translation 35.7818 19.4266 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(54)"
+}
+Chair {
+  translation 30.7818 19.4266 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(55)"
+}
+Chair {
+  translation 38.2818 22.4266 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(66)"
+}
+Chair {
+  translation 33.2818 22.4266 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(67)"
+}
+Chair {
+  translation 40.7818 18.5734 0
+  rotation 0 0 1 2.61799
+  name "chair(49)"
+}
+Chair {
+  translation 35.7818 18.5734 0
+  rotation 0 0 1 2.61799
+  name "chair(56)"
+}
+Chair {
+  translation 30.7818 18.5734 0
+  rotation 0 0 1 2.61799
+  name "chair(57)"
+}
+Chair {
+  translation 38.2818 21.5734 0
+  rotation 0 0 1 2.61799
+  name "chair(68)"
+}
+Chair {
+  translation 33.2818 21.5734 0
+  rotation 0 0 1 2.61799
+  name "chair(69)"
+}
+RoundTable {
+  translation 35 19 0
+}
+RoundTable {
+  translation 37.5 22 0
+  name "round table(1)"
+}
+RoundTable {
+  translation 32.5 22 0
+  name "round table(2)"
+}
+RoundTable {
+  translation 40 19 0
+  name "round table(3)"
+}
+RoundTable {
+  translation 30 19 0
+  name "round table(4)"
+}
+RoundTable {
+  translation 59.9 18.8 0
+  name "round table(5)"
+}
+RoundTable {
+  translation 55.7 18.8 0
+  name "round table(6)"
+}
+RoundTable {
+  translation 51.5 18.8 0
+  name "round table(7)"
+}
+RoundTable {
+  translation 47.3 18.8 0
+  name "round table(8)"
+}
+SolidBox {
+  translation 25.5 22.5 0.5
+  name "trashcan"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 44.5 22.5 0.5
+  name "trashcan(1)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 63 16.45 0.5
+  name "trashcan(2)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 61.7 1.05 0.5
+  name "trashcan(3)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 8 18.5 0.5
+  name "trashcan(4)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 8.8 9.8 0.5
+  name "trashcan(5)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 38 0 0.5
+  name "trashcan(6)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 32 0.37 0.5
+  name "trashcan(7)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 32 -0.37 0.5
+  name "trashcan(8)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
 }
