@@ -12,12 +12,14 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/RoundTable.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidBox.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Roughcast.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/bathroom/protos/Toilet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/bathroom/protos/BathroomSink.proto"
 
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.1301893933141969 0.9452591237142471 0.29922551846969025 0.8627767698204981
-  position 27.20159409278798 3.854366226980807 28.433535902746236
+  orientation 0.4536712758825376 -0.45378191797334816 -0.7669839270542376 4.450384538590786
+  position 37.783591185199 -39.57033186698447 102.56221326059871
 }
 TexturedBackgroundLight {
 }
@@ -523,12 +525,6 @@ Wall {
   size 0.2 1.5 2.4
 }
 Wall {
-  translation 40 24 0
-  rotation 0 0 1 1.5708
-  name "wall(27)"
-  size 0.2 1.2 2.4
-}
-Wall {
   translation 39.5 24.5 0
   name "wall(28)"
   size 0.2 1.2 2.4
@@ -587,10 +583,24 @@ Wall {
   size 0.2 1.2 2.4
 }
 Wall {
-  translation 30 24 0
+  translation 29.35 24 0
   rotation 0 0 1 1.5708
   name "wall(31)"
-  size 0.2 1.2 2.4
+  size 0.2 2.1 2.4
+}
+Wall {
+  translation 40.65 24 0
+  rotation 0 0 1 1.5708
+  name "wall(132)"
+  size 0.2 2.1 2.4
+}
+Wall {
+  translation 28.35 23.6 0
+  name "wall(130)"
+}
+Wall {
+  translation 41.65 23.6 0
+  name "wall(131)"
 }
 Wall {
   translation 28.9463 23.4913 0
@@ -910,6 +920,134 @@ Wall {
   rotation 0 0 1 -1.5708003061004252
   name "wall(129)"
   size 0.2 0.2 2.4
+}
+Wall {
+  translation 29.35 27.8 0
+  rotation 0 0 1 1.5708
+  name "wall(27)"
+  size 0.025 2.1 2.4
+  appearance Roughcast {
+    colorOverride 0.9 0.9 1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 29.35 26.6 0
+  rotation 0 0 1 1.5708
+  name "wall(133)"
+  size 0.025 2.1 2.4
+  appearance Roughcast {
+    colorOverride 0.9 0.9 1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 29.35 25.4 0
+  rotation 0 0 1 1.5708
+  name "wall(134)"
+  size 0.025 2.1 2.4
+  appearance Roughcast {
+    colorOverride 0.9 0.9 1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 40.65 26.6 0
+  rotation 0 0 1 1.5708
+  name "wall(136)"
+  size 0.025 2.1 2.4
+  appearance Roughcast {
+    colorOverride 0.9 0.9 1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 40.65 25.4 0
+  rotation 0 0 1 1.5708
+  name "wall(137)"
+  size 0.025 2.1 2.4
+  appearance Roughcast {
+    colorOverride 0.9 0.9 1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 25.45 26.9 0
+  name "wall(138)"
+  size 0.7 4 1
+  appearance Roughcast {
+    colorOverride 0.9 0.9 1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 44.55 26.9 0
+  name "wall(139)"
+  size 0.7 4 1
+  appearance Roughcast {
+    colorOverride 0.9 0.9 1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 66.2 15.7 0
+  rotation 0 0 1 1.5707996938995747
+  name "wall(135)"
+  size 0.7 4.4 1
+  appearance Roughcast {
+    colorOverride 0.5 0.3 0.1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 67.7 21.8 0
+  rotation 0 0 1 1.5707996938995747
+  name "wall(140)"
+  size 0.7 2.5 1
+  appearance Roughcast {
+    colorOverride 0.5 0.3 0.1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 67 18 0
+  name "wall(141)"
+  size 0.7 1.8 1
+  appearance Roughcast {
+    colorOverride 0.5 0.3 0.1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
+Wall {
+  translation 57 23.9 0
+  name "wall(142)"
+  size 0.7 2 1
+  appearance Roughcast {
+    colorOverride 0.5 0.3 0.1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
 }
 Door {
   translation 55.41 21.5 0
@@ -1857,6 +1995,56 @@ Table {
   name "table(26)"
   size 1 2 0.74
 }
+Table {
+  translation 10.15 23.85 0
+  name "table(27)"
+  size 1.2 2 0.74
+}
+Table {
+  translation 20.95 23.85 0
+  name "table(28)"
+  size 1.2 2 0.74
+}
+Table {
+  translation 35 27.1 0
+  rotation 0 0 1 1.5708
+  name "table(29)"
+  size 1 2.5 1
+}
+Table {
+  translation 2.59 19.15 0
+  name "table(30)"
+  size 1.35 2 0.74
+}
+Table {
+  translation 5.29 19.15 0
+  name "table(31)"
+  size 1.35 2 0.74
+}
+Table {
+  translation 68.1 18.6 0
+  rotation 0 0 1 -1.5707953071795862
+  name "table(32)"
+  size 0.6 1.5 0.74
+}
+Table {
+  translation 67.5 24.35 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "table(33)"
+  size 1 2.5 0.74
+}
+Table {
+  translation 20.35 12.5 0
+  rotation 0 0 1 1.5708
+  name "table(34)"
+  size 1.2 2 0.74
+}
+Table {
+  translation 58.4 24.45 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "table(35)"
+  size 0.8 2 0.74
+}
 Chair {
   translation 48.8 22.5 0
   rotation 0 0 1 1.5708
@@ -2412,6 +2600,409 @@ Chair {
   rotation 0 0 1 2.61799
   name "chair(109)"
 }
+Chair {
+  translation 60 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(115)"
+}
+Chair {
+  translation 58.5 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(116)"
+}
+Chair {
+  translation 57.5 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(117)"
+}
+Chair {
+  translation 56.5 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(118)"
+}
+Chair {
+  translation 55.5 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(119)"
+}
+Chair {
+  translation 54.5 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(120)"
+}
+Chair {
+  translation 53.5 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(121)"
+}
+Chair {
+  translation 52.5 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(122)"
+}
+Chair {
+  translation 51.5 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(123)"
+}
+Chair {
+  translation 50 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(114)"
+}
+Chair {
+  translation 48 13.25 0
+  rotation 0 0 1 1.5708
+  name "chair(124)"
+}
+Chair {
+  translation 60 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(125)"
+}
+Chair {
+  translation 58 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(126)"
+}
+Chair {
+  translation 56.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(127)"
+}
+Chair {
+  translation 55.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(128)"
+}
+Chair {
+  translation 54.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(129)"
+}
+Chair {
+  translation 53.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(130)"
+}
+Chair {
+  translation 52.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(131)"
+}
+Chair {
+  translation 51.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(132)"
+}
+Chair {
+  translation 50.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(133)"
+}
+Chair {
+  translation 49.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(134)"
+}
+Chair {
+  translation 48.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(135)"
+}
+Chair {
+  translation 47.5 14.25 0
+  rotation 0 0 1 -1.5708
+  name "chair(136)"
+}
+Chair {
+  translation 60.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(137)"
+}
+Chair {
+  translation 59.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(138)"
+}
+Chair {
+  translation 58.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(139)"
+}
+Chair {
+  translation 57.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(140)"
+}
+Chair {
+  translation 56.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(141)"
+}
+Chair {
+  translation 55.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(142)"
+}
+Chair {
+  translation 54.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(143)"
+}
+Chair {
+  translation 53.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(144)"
+}
+Chair {
+  translation 52.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(145)"
+}
+Chair {
+  translation 51.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(146)"
+}
+Chair {
+  translation 50.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(147)"
+}
+Chair {
+  translation 49.5 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(148)"
+}
+Chair {
+  translation 48 10.5 0
+  rotation 0 0 1 1.5708
+  name "chair(149)"
+}
+Chair {
+  translation 10.75 24.35 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(150)"
+}
+Chair {
+  translation 10.75 23.35 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(151)"
+}
+Chair {
+  translation 9.5 24.35 0
+  name "chair(152)"
+}
+Chair {
+  translation 9.5 23.35 0
+  name "chair(153)"
+}
+Chair {
+  translation 21.5 24.35 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(154)"
+}
+Chair {
+  translation 21.5 23.35 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(155)"
+}
+Chair {
+  translation 20.4 24.35 0
+  name "chair(156)"
+}
+Chair {
+  translation 20.4 23.35 0
+  name "chair(157)"
+}
+Chair {
+  translation 35 26.65 0
+  rotation 0 0 1 1.5708
+  name "chair(158)"
+}
+Chair {
+  translation 35.7 26.65 0
+  rotation 0 0 1 1.5708
+  name "chair(159)"
+}
+Chair {
+  translation 34.3 26.65 0
+  rotation 0 0 1 1.5708
+  name "chair(160)"
+}
+Chair {
+  translation 34.3 27.6 0
+  rotation 0 0 1 -1.5708
+  name "chair(161)"
+}
+Chair {
+  translation 35 27.6 0
+  rotation 0 0 1 -1.5708
+  name "chair(162)"
+}
+Chair {
+  translation 35.7 27.6 0
+  rotation 0 0 1 -1.5708
+  name "chair(163)"
+}
+Chair {
+  translation 13 19 0
+  rotation 0 0 1 1.5708
+  name "chair(164)"
+}
+Chair {
+  translation 18 19 0
+  rotation 0 0 1 1.5708
+  name "chair(166)"
+}
+Chair {
+  translation 13 21 0
+  rotation 0 0 1 -1.5708
+  name "chair(165)"
+}
+Chair {
+  translation 18 21 0
+  rotation 0 0 1 -1.5708
+  name "chair(167)"
+}
+Chair {
+  translation 12.1366 20.5048 0
+  rotation 0 0 -1 0.523602
+  name "chair(168)"
+}
+Chair {
+  translation 17.1366 20.5048 0
+  rotation 0 0 -1 0.523602
+  name "chair(170)"
+}
+Chair {
+  translation 12.1366 19.4952 0
+  rotation 0 0 1 0.523596
+  name "chair(169)"
+}
+Chair {
+  translation 17.1366 19.4952 0
+  rotation 0 0 1 0.523596
+  name "chair(171)"
+}
+Chair {
+  translation 13.8634 20.5048 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(172)"
+}
+Chair {
+  translation 18.8634 20.5048 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(173)"
+}
+Chair {
+  translation 13.8634 19.4952 0
+  rotation 0 0 1 2.61799
+  name "chair(174)"
+}
+Chair {
+  translation 18.8634 19.4952 0
+  rotation 0 0 1 2.61799
+  name "chair(175)"
+}
+Chair {
+  translation 5.9 19.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(176)"
+}
+Chair {
+  translation 3.2 19.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(178)"
+}
+Chair {
+  translation 5.9 18.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(177)"
+}
+Chair {
+  translation 3.2 18.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(179)"
+}
+Chair {
+  translation 4.65 18.65 0
+  name "chair(180)"
+}
+Chair {
+  translation 4.65 19.65 0
+  name "chair(181)"
+}
+Chair {
+  translation 1.95 18.65 0
+  name "chair(182)"
+}
+Chair {
+  translation 1.95 19.65 0
+  name "chair(183)"
+}
+Chair {
+  translation 67 20.8 0
+  rotation 0 0 1 1.5708
+  name "chair(184)"
+}
+Chair {
+  translation 68.4 20.8 0
+  rotation 0 0 1 1.5708
+  name "chair(185)"
+}
+Chair {
+  translation 67.7 22.7 0
+  rotation 0 0 1 -1.5708
+  name "chair(186)"
+}
+Chair {
+  translation 66.1 18.4 0
+  name "chair(187)"
+}
+Chair {
+  translation 66.1 17.6 0
+  name "chair(188)"
+}
+Chair {
+  translation 68.1 17.6 0
+  rotation 0 0 1 3.141592653589793
+  name "chair(189)"
+}
+Chair {
+  translation 20.85 13.1 0
+  rotation 0 0 1 -1.5708
+  name "chair(190)"
+}
+Chair {
+  translation 19.85 13.1 0
+  rotation 0 0 1 -1.5708
+  name "chair(191)"
+}
+Chair {
+  translation 20.85 11.9 0
+  rotation 0 0 1 1.5708
+  name "chair(192)"
+}
+Chair {
+  translation 19.85 11.9 0
+  rotation 0 0 1 1.5708
+  name "chair(193)"
+}
+Chair {
+  translation 56 24.3 0
+  name "chair(194)"
+}
+Chair {
+  translation 56 23.4 0
+  name "chair(195)"
+}
+Chair {
+  translation 58 23.4 0
+  rotation 0 0 1 3.14159
+  name "chair(196)"
+}
 RoundTable {
   translation 35 19 0
 }
@@ -2458,6 +3049,14 @@ RoundTable {
 RoundTable {
   translation 52.8 6.8 0
   name "round table(11)"
+}
+RoundTable {
+  translation 18 20 0
+  name "round table(12)"
+}
+RoundTable {
+  translation 13 20 0
+  name "round table(13)"
 }
 SolidBox {
   translation 25.5 22.5 0.5
@@ -2574,6 +3173,34 @@ SolidBox {
 SolidBox {
   translation 32 -0.37 0.5
   name "trashcan(8)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 25.5 23.5 0.5
+  name "trashcan(9)"
+  size 0.7 0.7 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/refs/heads/master/projects/appearances/protos/textures/brushed_aluminium/brushed_aluminium_base_color.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 44.5 23.5 0.5
+  name "trashcan(10)"
   size 0.7 0.7 1
   appearance PBRAppearance {
     baseColorMap ImageTexture {
@@ -2990,4 +3617,132 @@ SolidBox {
     roughness 0.5
     metalness 0
   }
+}
+SolidBox {
+  translation 15.4 24.4 0.5
+  name "bookshelf(29)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 15.4 23.4 0.5
+  name "bookshelf(30)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 15.4 22.4 0.5
+  name "bookshelf(31)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 15.4 21.4 0.5
+  name "bookshelf(32)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+Toilet {
+  translation 29.8 28.4 0
+  rotation 0 0 1 3.14159
+  lidColor 1 1 1
+}
+Toilet {
+  translation 29.8 27.2 0
+  rotation 0 0 1 3.14159
+  name "toilet(1)"
+  lidColor 1 1 1
+}
+Toilet {
+  translation 29.8 26 0
+  rotation 0 0 1 3.14159
+  name "toilet(2)"
+  lidColor 1 1 1
+}
+Toilet {
+  translation 29.8 24.75 0
+  rotation 0 0 1 3.14159
+  name "toilet(3)"
+  lidColor 1 1 1
+}
+Toilet {
+  translation 40.2 28.4 0
+  name "toilet(4)"
+  lidColor 1 1 1
+}
+Toilet {
+  translation 40.2 27.2 0
+  rotation 0 0 1 -5.307179586466759e-06
+  name "toilet(5)"
+  lidColor 1 1 1
+}
+Toilet {
+  translation 40.2 26 0
+  rotation 0 0 1 -5.307179586466759e-06
+  name "toilet(6)"
+  lidColor 1 1 1
+}
+Toilet {
+  translation 40.2 24.75 0
+  rotation 0 0 1 -5.307179586466759e-06
+  name "toilet(7)"
+  lidColor 1 1 1
+}
+BathroomSink {
+  translation 25.25 28.2 1.05
+}
+BathroomSink {
+  translation 25.25 26.95 1.05
+  name "sink(1)"
+}
+BathroomSink {
+  translation 25.25 25.7 1.05
+  name "sink(2)"
+}
+BathroomSink {
+  translation 44.75 25.7 1.05
+  rotation 0 0 1 3.141592653589793
+  name "sink(3)"
+}
+BathroomSink {
+  translation 44.75 26.95 1.05
+  rotation 0 0 1 3.14159
+  name "sink(4)"
+}
+BathroomSink {
+  translation 44.75 28.2 1.05
+  rotation 0 0 1 3.14159
+  name "sink(5)"
 }
