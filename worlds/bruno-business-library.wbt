@@ -18,8 +18,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.5794423436599316 -0.5906236202920895 -0.5616140218396896 4.181419345381681
-  position 34.49145521322268 15.665727628124667 95.67872019061417
+  orientation 0.5370851001901139 -0.5413246515275435 -0.6469213374146495 4.297184314569587
+  position 37.65130722132555 -6.9224545085424865 104.92802383026103
 }
 TexturedBackgroundLight {
 }
@@ -2110,6 +2110,12 @@ Table {
   name "table(44)"
   size 1.2 2 0.74
 }
+Table {
+  translation 12.6186 8.9236 0
+  rotation 0 0 1 2.3562
+  name "table(45)"
+  size 1.6 1.6 0.74
+}
 Chair {
   translation 48.8 22.5 0
   rotation 0 0 1 1.5708
@@ -3220,6 +3226,116 @@ Chair {
   rotation 0 0 1 3.14159
   name "chair(229)"
 }
+Chair {
+  translation 14 6.5 0
+  rotation 0 0 1 -1.5708
+  name "chair(230)"
+}
+Chair {
+  translation 19.5 6.5 0
+  rotation 0 0 1 -1.5708
+  name "chair(231)"
+}
+Chair {
+  translation 14 4.5 0
+  rotation 0 0 1 1.5708
+  name "chair(232)"
+}
+Chair {
+  translation 19.5 4.5 0
+  rotation 0 0 1 1.5708
+  name "chair(233)"
+}
+Chair {
+  translation 13.1736 5.94926 0
+  rotation 0 0 -1 0.523602
+  name "chair(234)"
+}
+Chair {
+  translation 13.1736 5.05074 0
+  rotation 0 0 1 0.523596
+  name "chair(235)"
+}
+Chair {
+  translation 14.8264 5.94926 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(236)"
+}
+Chair {
+  translation 14.8264 5.05074 0
+  rotation 0 0 1 2.61799
+  name "chair(237)"
+}
+Chair {
+  translation 18.6736 5.94926 0
+  rotation 0 0 -1 0.523602
+  name "chair(238)"
+}
+Chair {
+  translation 18.6736 5.05074 0
+  rotation 0 0 1 0.523596
+  name "chair(239)"
+}
+Chair {
+  translation 20.3264 5.94926 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(240)"
+}
+Chair {
+  translation 20.3264 5.05074 0
+  rotation 0 0 1 2.61799
+  name "chair(241)"
+}
+Chair {
+  translation 12.0529 8.3557 0
+  rotation 0 0 1 0.785401
+  name "chair(242)"
+}
+Chair {
+  translation 13.1845 9.4873 0
+  rotation 0 0 1 -2.356185307179586
+  name "chair(243)"
+}
+Chair {
+  translation 12.0529 9.4873 0
+  rotation 0 0 1 -0.785395307179586
+  name "chair(244)"
+}
+Chair {
+  translation 13.1845 8.3557 0
+  rotation 0 0 1 2.3562
+  name "chair(245)"
+}
+Chair {
+  translation 15.5 11.5 0
+  rotation 0 0 1 1.5708
+  name "chair(246)"
+}
+Chair {
+  translation 15.5 13.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "chair(247)"
+}
+Chair {
+  translation 14.6492 13.0074 0
+  rotation 0 0 1 -0.523595307179586
+  name "chair(248)"
+}
+Chair {
+  translation 14.6492 11.9926 0
+  rotation 0 0 1 0.523602
+  name "chair(249)"
+}
+Chair {
+  translation 16.3508 13.0074 0
+  rotation 0 0 1 -2.6179953071795863
+  name "chair(250)"
+}
+Chair {
+  translation 16.3508 11.9926 0
+  rotation 0 0 1 2.618
+  name "chair(251)"
+}
 RoundTable {
   translation 35 19 0
 }
@@ -3274,6 +3390,18 @@ RoundTable {
 RoundTable {
   translation 13 20 0
   name "round table(13)"
+}
+RoundTable {
+  translation 19.5 5.5 0
+  name "round table(14)"
+}
+RoundTable {
+  translation 14 5.5 0
+  name "round table(15)"
+}
+RoundTable {
+  translation 15.5 12.5 0
+  name "round table(16)"
 }
 SolidBox {
   translation 25.5 22.5 0.5
