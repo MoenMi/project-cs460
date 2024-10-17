@@ -18,8 +18,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.5186758614279902 -0.5194504879244923 -0.6790777137905053 4.336064072849137
-  position 34.17667230847354 -15.192323929554522 97.96928382219673
+  orientation 0.5794423436599316 -0.5906236202920895 -0.5616140218396896 4.181419345381681
+  position 34.49145521322268 15.665727628124667 95.67872019061417
 }
 TexturedBackgroundLight {
 }
@@ -1254,6 +1254,7 @@ Window {
   size 0.2 1 2.4
   bottomWallHeight 0.5
   windowHeight 1.7
+  windowSillSize 0 0
 }
 Window {
   translation 0 20.1 0
@@ -1269,6 +1270,7 @@ Window {
   size 0.2 1 2.4
   bottomWallHeight 0.5
   windowHeight 1.7
+  windowSillSize 0 0
 }
 Window {
   translation 0 22.78 0
@@ -1285,6 +1287,7 @@ Window {
   size 0.2 1 2.4
   bottomWallHeight 0.5
   windowHeight 1.7
+  windowSillSize 0 0
 }
 Window {
   translation 5.35 0 0
@@ -1293,6 +1296,7 @@ Window {
   size 0.2 1 2.4
   bottomWallHeight 0.5
   windowHeight 1.7
+  windowSillSize 0 0
 }
 Window {
   translation 64.6 0 0
@@ -2079,6 +2083,32 @@ Table {
   rotation 0 0 -1 0
   name "table(39)"
   size 0.8 2 0.74
+}
+Table {
+  translation 12.6186 16.0674 0
+  rotation 0 0 1 2.3562
+  name "table(40)"
+  size 1.6 1.6 0.74
+}
+Table {
+  translation 2.59 1.66 0
+  name "table(41)"
+  size 1.35 3 0.74
+}
+Table {
+  translation 5.29 1.66 0
+  name "table(42)"
+  size 1.35 3 0.74
+}
+Table {
+  translation 11.3 1.65 0
+  name "table(43)"
+  size 1.2 2 0.74
+}
+Table {
+  translation 22.5 1.65 0
+  name "table(44)"
+  size 1.2 2 0.74
 }
 Chair {
   translation 48.8 22.5 0
@@ -3080,6 +3110,116 @@ Chair {
   translation 39.6 0.75 0
   name "chair(205)"
 }
+Chair {
+  translation 13.1845 15.5127 0
+  rotation 0 0 1 2.3562
+  name "chair(206)"
+}
+Chair {
+  translation 12.0529 16.6443 0
+  rotation 0 0 1 -0.785395307179586
+  name "chair(207)"
+}
+Chair {
+  translation 13.1705 16.6017 0
+  rotation 0 0 1 -2.3561953071795863
+  name "chair(208)"
+}
+Chair {
+  translation 12.0602 15.4914 0
+  rotation 0 0 1 0.785397
+  name "chair(209)"
+}
+Chair {
+  translation 5.9 0.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(210)"
+}
+Chair {
+  translation 4.7 0.65 0
+  name "chair(211)"
+}
+Chair {
+  translation 3.2 0.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(212)"
+}
+Chair {
+  translation 2 0.65 0
+  name "chair(213)"
+}
+Chair {
+  translation 2 1.65 0
+  name "chair(214)"
+}
+Chair {
+  translation 2 2.65 0
+  name "chair(215)"
+}
+Chair {
+  translation 3.2 1.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(216)"
+}
+Chair {
+  translation 3.2 2.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(217)"
+}
+Chair {
+  translation 4.7 1.65 0
+  name "chair(218)"
+}
+Chair {
+  translation 4.7 2.65 0
+  name "chair(219)"
+}
+Chair {
+  translation 5.9 1.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(220)"
+}
+Chair {
+  translation 5.9 2.65 0
+  rotation 0 0 1 -3.1415853071795863
+  name "chair(221)"
+}
+Chair {
+  translation 10.7 1.15 0
+  name "chair(222)"
+}
+Chair {
+  translation 10.7 2.15 0
+  name "chair(223)"
+}
+Chair {
+  translation 21.9 1.15 0
+  name "chair(224)"
+}
+Chair {
+  translation 21.9 2.15 0
+  name "chair(225)"
+}
+Chair {
+  translation 11.9 1.15 0
+  rotation 0 0 1 3.14159
+  name "chair(226)"
+}
+Chair {
+  translation 23.1 1.15 0
+  rotation 0 0 1 3.14159
+  name "chair(227)"
+}
+Chair {
+  translation 11.9 2.15 0
+  rotation 0 0 1 3.14159
+  name "chair(228)"
+}
+Chair {
+  translation 23.1 2.15 0
+  rotation 0 0 1 3.14159
+  name "chair(229)"
+}
 RoundTable {
   translation 35 19 0
 }
@@ -3740,6 +3880,132 @@ SolidBox {
 SolidBox {
   translation 15.4 21.4 0.5
   name "bookshelf(32)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 16.9 1.2 0.5
+  name "bookshelf(33)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 16.9 2.2 0.5
+  name "bookshelf(34)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 16.9 3.2 0.5
+  name "bookshelf(35)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 16.9 4.2 0.5
+  name "bookshelf(36)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.45 1.3 0.5
+  name "bookshelf(37)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.45 2.3 0.5
+  name "bookshelf(38)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.45 3.3 0.5
+  name "bookshelf(39)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.45 4.3 0.5
+  name "bookshelf(40)"
+  size 0.5 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "../textures/bookshelf.png"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.45 5.3 0.5
+  name "bookshelf(41)"
   size 0.5 1 1
   appearance PBRAppearance {
     baseColorMap ImageTexture {
