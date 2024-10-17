@@ -18,8 +18,8 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.4536712758825376 -0.45378191797334816 -0.7669839270542376 4.450384538590786
-  position 37.783591185199 -39.57033186698447 102.56221326059871
+  orientation 0.5186758614279902 -0.5194504879244923 -0.6790777137905053 4.336064072849137
+  position 34.17667230847354 -15.192323929554522 97.96928382219673
 }
 TexturedBackgroundLight {
 }
@@ -1049,6 +1049,17 @@ Wall {
     }
   }
 }
+Wall {
+  translation 51.6 23.9 0
+  name "wall(143)"
+  size 0.7 2 1
+  appearance Roughcast {
+    colorOverride 0.5 0.3 0.1
+    textureTransform TextureTransform {
+      scale 2.4 1
+    }
+  }
+}
 Door {
   translation 55.41 21.5 0
   rotation 0 0 1 1.5708
@@ -2045,6 +2056,30 @@ Table {
   name "table(35)"
   size 0.8 2 0.74
 }
+Table {
+  translation 53 24.45 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "table(36)"
+  size 0.8 2 0.74
+}
+Table {
+  translation 62.6 23.5 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "table(37)"
+  size 1 2.5 0.74
+}
+Table {
+  translation 29.5 0.8 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "table(38)"
+  size 0.8 2 0.74
+}
+Table {
+  translation 40 0.8 0
+  rotation 0 0 -1 0
+  name "table(39)"
+  size 0.8 2 0.74
+}
 Chair {
   translation 48.8 22.5 0
   rotation 0 0 1 1.5708
@@ -3002,6 +3037,48 @@ Chair {
   translation 58 23.4 0
   rotation 0 0 1 3.14159
   name "chair(196)"
+}
+Chair {
+  translation 52.7 23.4 0
+  rotation 0 0 1 3.14159
+  name "chair(197)"
+}
+Chair {
+  translation 50.6 24.3 0
+  name "chair(198)"
+}
+Chair {
+  translation 50.6 23.4 0
+  name "chair(199)"
+}
+Chair {
+  translation 62.6 24 0
+  rotation 0 0 1 -1.5708
+  name "chair(200)"
+}
+Chair {
+  translation 29 0.45 0
+  rotation 0 0 1 1.5708
+  name "chair(201)"
+}
+Chair {
+  translation 30 0.45 0
+  rotation 0 0 1 1.5708
+  name "chair(202)"
+}
+Chair {
+  translation 29 1.15 0
+  rotation 0 0 1 -1.5708
+  name "chair(203)"
+}
+Chair {
+  translation 30 1.15 0
+  rotation 0 0 1 -1.5708
+  name "chair(204)"
+}
+Chair {
+  translation 39.6 0.75 0
+  name "chair(205)"
 }
 RoundTable {
   translation 35 19 0
