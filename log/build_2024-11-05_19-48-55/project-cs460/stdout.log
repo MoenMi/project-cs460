@@ -1,0 +1,20 @@
+running egg_info
+writing build/project-cs460/project_cs460.egg-info/PKG-INFO
+writing dependency_links to build/project-cs460/project_cs460.egg-info/dependency_links.txt
+writing entry points to build/project-cs460/project_cs460.egg-info/entry_points.txt
+writing requirements to build/project-cs460/project_cs460.egg-info/requires.txt
+writing top-level names to build/project-cs460/project_cs460.egg-info/top_level.txt
+reading manifest file 'build/project-cs460/project_cs460.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/project-cs460/project_cs460.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project_cs460-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/project-cs460/project_cs460.egg-info to /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project_cs460-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_robot_driver script to /home/michael/Documents/project-cs460/install/project-cs460/lib/project-cs460
+writing list of installed files to '/home/michael/Documents/project-cs460/build/project-cs460/install.log'

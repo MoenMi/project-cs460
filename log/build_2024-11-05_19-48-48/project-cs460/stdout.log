@@ -1,0 +1,37 @@
+running egg_info
+creating build/project-cs460/project_cs460.egg-info
+writing build/project-cs460/project_cs460.egg-info/PKG-INFO
+writing dependency_links to build/project-cs460/project_cs460.egg-info/dependency_links.txt
+writing entry points to build/project-cs460/project_cs460.egg-info/entry_points.txt
+writing requirements to build/project-cs460/project_cs460.egg-info/requires.txt
+writing top-level names to build/project-cs460/project_cs460.egg-info/top_level.txt
+writing manifest file 'build/project-cs460/project_cs460.egg-info/SOURCES.txt'
+reading manifest file 'build/project-cs460/project_cs460.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/project-cs460/project_cs460.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/michael/Documents/project-cs460/build/project-cs460/build
+creating /home/michael/Documents/project-cs460/build/project-cs460/build/lib
+creating /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460
+copying project-cs460/my_robot_driver.py -> /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460
+copying project-cs460/__init__.py -> /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460
+running install
+running install_lib
+creating /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460
+copying /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460/my_robot_driver.py -> /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460
+copying /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460/__init__.py -> /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460
+byte-compiling /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+byte-compiling /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/launch
+copying launch/robot_launch.py -> /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/launch
+creating /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/worlds
+copying worlds/bruno-business-library.wbt -> /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/worlds
+creating /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/resource
+copying resource/my_robot.urdf -> /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/resource
+running install_egg_info
+Copying build/project-cs460/project_cs460.egg-info to /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project_cs460-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_robot_driver script to /home/michael/Documents/project-cs460/install/project-cs460/lib/project-cs460
+writing list of installed files to '/home/michael/Documents/project-cs460/build/project-cs460/install.log'

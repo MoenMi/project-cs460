@@ -1,0 +1,39 @@
+[0.875s] Invoking command in '/home/michael/Documents/project-cs460': PYTHONPATH=/home/michael/Documents/project-cs460/build/project-cs460/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/project-cs460 build --build-base /home/michael/Documents/project-cs460/build/project-cs460/build install --record /home/michael/Documents/project-cs460/build/project-cs460/install.log --single-version-externally-managed install_data
+[1.064s] running egg_info
+[1.064s] creating build/project-cs460/project_cs460.egg-info
+[1.064s] writing build/project-cs460/project_cs460.egg-info/PKG-INFO
+[1.065s] writing dependency_links to build/project-cs460/project_cs460.egg-info/dependency_links.txt
+[1.065s] writing entry points to build/project-cs460/project_cs460.egg-info/entry_points.txt
+[1.065s] writing requirements to build/project-cs460/project_cs460.egg-info/requires.txt
+[1.065s] writing top-level names to build/project-cs460/project_cs460.egg-info/top_level.txt
+[1.065s] writing manifest file 'build/project-cs460/project_cs460.egg-info/SOURCES.txt'
+[1.067s] reading manifest file 'build/project-cs460/project_cs460.egg-info/SOURCES.txt'
+[1.067s] adding license file 'LICENSE'
+[1.068s] writing manifest file 'build/project-cs460/project_cs460.egg-info/SOURCES.txt'
+[1.068s] running build
+[1.068s] running build_py
+[1.068s] creating /home/michael/Documents/project-cs460/build/project-cs460/build
+[1.068s] creating /home/michael/Documents/project-cs460/build/project-cs460/build/lib
+[1.068s] creating /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460
+[1.068s] copying project-cs460/my_robot_driver.py -> /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460
+[1.068s] copying project-cs460/__init__.py -> /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460
+[1.069s] running install
+[1.069s] running install_lib
+[1.069s] creating /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460
+[1.069s] copying /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460/my_robot_driver.py -> /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460
+[1.070s] copying /home/michael/Documents/project-cs460/build/project-cs460/build/lib/project-cs460/__init__.py -> /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460
+[1.070s] byte-compiling /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+[1.071s] byte-compiling /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project-cs460/__init__.py to __init__.cpython-310.pyc
+[1.071s] running install_data
+[1.071s] creating /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/launch
+[1.071s] copying launch/robot_launch.py -> /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/launch
+[1.071s] creating /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/worlds
+[1.071s] copying worlds/bruno-business-library.wbt -> /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/worlds
+[1.071s] creating /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/resource
+[1.071s] copying resource/my_robot.urdf -> /home/michael/Documents/project-cs460/install/project-cs460/share/project-cs460/resource
+[1.071s] running install_egg_info
+[1.074s] Copying build/project-cs460/project_cs460.egg-info to /home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages/project_cs460-0.0.0-py3.10.egg-info
+[1.074s] running install_scripts
+[1.091s] Installing my_robot_driver script to /home/michael/Documents/project-cs460/install/project-cs460/lib/project-cs460
+[1.091s] writing list of installed files to '/home/michael/Documents/project-cs460/build/project-cs460/install.log'
+[1.109s] Invoked command in '/home/michael/Documents/project-cs460' returned '0': PYTHONPATH=/home/michael/Documents/project-cs460/build/project-cs460/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michael/Documents/project-cs460/install/project-cs460/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/project-cs460 build --build-base /home/michael/Documents/project-cs460/build/project-cs460/build install --record /home/michael/Documents/project-cs460/build/project-cs460/install.log --single-version-externally-managed install_data
