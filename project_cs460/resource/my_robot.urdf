@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<robot name="My robot">
+    <webots>
+        <plugin type="project_cs460.my_robot_driver.MyRobotDriver" />
+    </webots>
+    <link name="body">
+        <visual>
+            <geometry>
+                <mesh filename="package://project_cs460/meshes/body_mesh.obj"/>
+            </geometry>
+            <material name="bookshelf">
+                <texture filename="package://project_cs460/textures/bookshelf.png"/>
+            </material>
+        </visual>
+    </link>
+</robot>

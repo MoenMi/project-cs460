@@ -8,6 +8,9 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/RoadLine.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/SimpleBuilding.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/StopSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/AddLaneRoadSegment.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/WorkBarrier.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/CrossRoadsTrafficLight.proto"
 
 WorldInfo {
   info [
@@ -19,8 +22,8 @@ WorldInfo {
   lineScale 4
 }
 Viewpoint {
-  orientation 0.14876180159827798 0.12262093440941293 -0.9812410676433173 1.7813772283830205
-  position 350.29669307079826 453.61160569770624 99.4086738388921
+  orientation -0.4031861962585135 -0.4416655931560547 0.8014813753099329 4.582626956073375
+  position 292.7874890917938 299.9389824195499 202.93579654231925
   near 3
 }
 TexturedBackground {
@@ -40,14 +43,160 @@ Floor {
     metalness 0
   }
 }
+WorkBarrier {
+  translation 386.16 180.94 0
+}
+WorkBarrier {
+  translation 386.16 184.79 0
+  name "work barrier(1)"
+}
+WorkBarrier {
+  translation 386.16 188.68 0
+  name "work barrier(2)"
+}
+WorkBarrier {
+  translation 316.89 402.74 0
+  rotation 0 0 1 1.5708
+  name "work barrier(3)"
+}
+WorkBarrier {
+  translation 312.72 402.74 0
+  rotation 0 0 1 1.5708
+  name "work barrier(4)"
+}
+WorkBarrier {
+  translation 202.72 402.74 0
+  rotation 0 0 1 1.5708
+  name "work barrier(5)"
+}
+WorkBarrier {
+  translation 142.9 402.74 0
+  rotation 0 0 1 1.5708
+  name "work barrier(6)"
+}
+WorkBarrier {
+  translation 65.21 402.74 0
+  rotation 0 0 1 1.5708
+  name "work barrier(7)"
+}
+WorkBarrier {
+  translation -31.07 402.74 0
+  rotation 0 0 1 1.5708
+  name "work barrier(8)"
+}
+WorkBarrier {
+  translation -144.83 402.74 0
+  rotation 0 0 1 1.5708
+  name "work barrier(9)"
+}
+WorkBarrier {
+  translation -228.3 402.74 0
+  rotation 0 0 1 1.5708
+  name "work barrier(10)"
+}
+WorkBarrier {
+  translation -352.97 402.74 0
+  rotation 0 0 1 1.5708
+  name "work barrier(11)"
+}
+WorkBarrier {
+  translation -395.29 325.54 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "work barrier(12)"
+}
+WorkBarrier {
+  translation -395.29 315.04 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "work barrier(13)"
+}
+WorkBarrier {
+  translation -395.29 210.04 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "work barrier(14)"
+}
+WorkBarrier {
+  translation -395.29 205.66 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "work barrier(15)"
+}
+WorkBarrier {
+  translation -395.29 201.45 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "work barrier(16)"
+}
+WorkBarrier {
+  translation -395.64 179.2 0
+  rotation 0 0 1 -1.3089953071795861
+  name "work barrier(17)"
+}
+WorkBarrier {
+  translation -374.6 94.45 0
+  rotation 0 0 1 0.261805
+  name "work barrier(18)"
+}
+WorkBarrier {
+  translation -373.65 90.9144 0
+  rotation 0 0 1 0.261805
+  name "work barrier(19)"
+}
+WorkBarrier {
+  translation -395.29 -27.61 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "work barrier(20)"
+}
+WorkBarrier {
+  translation -395.29 -31.65 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "work barrier(21)"
+}
+WorkBarrier {
+  translation -363.58 -356.86 0
+  rotation 0 0 1 1.5708
+  name "work barrier(22)"
+}
+WorkBarrier {
+  translation -359.95 -356.86 0
+  rotation 0 0 1 1.5708
+  name "work barrier(23)"
+}
+WorkBarrier {
+  translation -356.63 -356.86 0
+  rotation 0 0 1 1.5708
+  name "work barrier(24)"
+}
+WorkBarrier {
+  translation 415.29 -352.54 0
+  rotation 0 0 1 -3.1415853071795863
+  name "work barrier(25)"
+}
+WorkBarrier {
+  translation 415.29 -313.93 0
+  rotation 0 0 1 -3.1415853071795863
+  name "work barrier(26)"
+}
+WorkBarrier {
+  translation 415.29 -224.91 0
+  rotation 0 0 1 -3.1415853071795863
+  name "work barrier(27)"
+}
+WorkBarrier {
+  translation 415.29 -97.2 0
+  rotation 0 0 1 -3.1415853071795863
+  name "work barrier(28)"
+}
 StopSign {
   translation 299.19 9.07 0
   rotation 0 0 1 3.14159
 }
 StopSign {
-  translation 296.93 -21.02 0
+  translation 290.68 -84.73 0
   rotation 0 0 -1 -1.5707953071795862
   name "stop sign(1)"
+}
+StopSign {
+  translation 256.81 200.23 0
+  rotation 0 0 -1 -1.5707953071795862
+  name "stop sign(2)"
 }
 Crossroad {
   translation 64.783387 -45.709219 0.01
@@ -246,25 +395,6 @@ Crossroad {
     "614337997_1"
     "8868325_3"
     "8884918"
-  ]
-}
-Crossroad {
-  translation 301.82451 -25.557253 0.01
-  name "crossroad(11)"
-  id "1039711310"
-  shape [
-    4.360308 -5.743493 0
-    0.367832 -5.988714 0
-    -3.875088 -2.232418 0
-    -4.110987 1.76062 0
-    -0.367832 5.988714 0
-    3.624644 6.233936 0
-    4.360308 -5.743493 0
-  ]
-  connectedRoadIDs [
-    "1220969900_1"
-    "1220969902"
-    "8855371_2"
   ]
 }
 Crossroad {
@@ -903,40 +1033,6 @@ Crossroad {
   ]
 }
 Crossroad {
-  translation 273.664141 192.138815 0.01
-  name "crossroad(48)"
-  id "11311211322"
-  shape [
-    6.053315 -0.597814 0
-    -5.919994 -1.397737 0
-    -6.053604 0.594873 0
-    5.919314 1.400614 0
-    5.986654 0.399962 0
-    6.053315 -0.597814 0
-  ]
-  connectedRoadIDs [
-    "1220678155"
-    "1220678156"
-  ]
-}
-Crossroad {
-  translation 359.007846 186.598554 0.01
-  name "crossroad(49)"
-  id "11311211323"
-  shape [
-    6.05289 -0.6021 0
-    -5.920982 -1.393545 0
-    -6.052995 0.601043 0
-    5.920739 1.394579 0
-    5.986936 0.395722 0
-    6.05289 -0.6021 0
-  ]
-  connectedRoadIDs [
-    "1220678157"
-    "1220678158_2"
-  ]
-}
-Crossroad {
   translation 378.470931 185.309422 0.01
   name "crossroad(50)"
   id "11311211324"
@@ -964,24 +1060,6 @@ Crossroad {
   connectedRoadIDs [
     "1221242914"
     "1221242915"
-  ]
-}
-Crossroad {
-  translation 203.390831 248.58858 0.01
-  name "crossroad(54)"
-  id "11323267269"
-  shape [
-    1.019143 3.995165 0
-    0.980834 -4.004743 0
-    -0.019155 -3.999954 0
-    -1.009355 -1.995295 0
-    -0.990623 2.004661 0
-    0.019155 3.999954 0
-    1.019143 3.995165 0
-  ]
-  connectedRoadIDs [
-    "1221242915"
-    "8884174_3"
   ]
 }
 Crossroad {
@@ -1099,24 +1177,6 @@ Crossroad {
     "1307735870"
     "8868325_2"
     "8868325_7"
-  ]
-}
-Crossroad {
-  translation 365.753314 186.152694 0.01
-  name "crossroad(65)"
-  id "12110379708"
-  shape [
-    6.251502 -3.594263 0
-    -5.722205 -4.388208 0
-    -5.986936 -0.395722 0
-    -6.250751 3.595568 0
-    5.723121 4.387013 0
-    6.251502 -3.594263 0
-  ]
-  connectedRoadIDs [
-    "1220678158_1"
-    "1220678158_2"
-    "1307737522_3"
   ]
 }
 Crossroad {
@@ -1700,6 +1760,22 @@ Crossroad {
   ]
 }
 Crossroad {
+  translation 315 189 0.01
+  name "crossroad(11)"
+  id "5813185327"
+  shape [
+    7 -6.9 0
+    -6 -10 0
+    -6.9 6.4 0
+    6.2 7.1 0
+  ]
+  connectedRoadIDs [
+    "1220969904_1"
+    "1220969904_2"
+    "614563165_2"
+  ]
+}
+Crossroad {
   translation 208.977032 140.206714 0.01
   name "crossroad(102)"
   id "5813185328"
@@ -1773,25 +1849,6 @@ Crossroad {
     "614563172_1"
     "614563172_6"
     "614563172_8"
-  ]
-}
-Crossroad {
-  translation 301.263575 -34.689885 0.01
-  name "crossroad(107)"
-  id "5813186405"
-  shape [
-    4.396147 -5.716108 0
-    0.405282 -5.986297 0
-    0.367832 -5.988714 0
-    -3.624644 -6.233936 0
-    -4.360308 5.743493 0
-    3.585582 6.256485 0
-    4.396147 -5.716108 0
-  ]
-  connectedRoadIDs [
-    "1220969900_1"
-    "1220969900_2"
-    "614563173"
   ]
 }
 Crossroad {
@@ -2328,28 +2385,6 @@ Crossroad {
     "8865307_1"
     "8882488_3"
     "8884183"
-  ]
-}
-Crossroad {
-  translation 315.283153 189.435137 0.01
-  name "crossroad(139)"
-  id "64450438"
-  shape [
-    7.352404 -5.562567 0
-    6.399586 -6.636664 0
-    -5.579825 -7.339315 0
-    -5.989705 -0.351326 0
-    -5.990662 -0.334617 0
-    -6.381049 6.654488 0
-    5.600275 7.323723 0
-    6.62161 6.41516 0
-    7.352404 -5.562567 0
-  ]
-  connectedRoadIDs [
-    "1220678155"
-    "1220678157"
-    "1220969904_1"
-    "961468926_4"
   ]
 }
 Crossroad {
@@ -2896,25 +2931,6 @@ Crossroad {
   connectedRoadIDs [
     "1220969901_1"
     "1220969901_2"
-    "924782773"
-  ]
-}
-Crossroad {
-  translation 205.103054 -20.965138 0.01
-  name "crossroad(170)"
-  id "8582641089"
-  shape [
-    4.098374 -1.789784 0
-    2.183907 -3.902634 0
-    -1.811762 -4.088706 0
-    -2.183979 3.902593 0
-    1.811687 4.088739 0
-    3.890852 2.204829 0
-    4.098374 -1.789784 0
-  ]
-  connectedRoadIDs [
-    "8855371_1"
-    "8855371_2"
     "924782773"
   ]
 }
@@ -4030,22 +4046,6 @@ Road {
   splineSubdivision 0
 }
 Road {
-  translation 416.470439 -391.930566 0.01
-  name "road(12)"
-  id "510641550"
-  width 4
-  numberOfLanes 1
-  speedLimit 27.777778
-  lines []
-  rightBorder FALSE
-  leftBorder FALSE
-  wayPoints [
-    0 0 0
-    -44.480916 3.09527 0
-  ]
-  splineSubdivision 0
-}
-Road {
   translation 361.302328 -148.040622 0.01
   name "road(14)"
   id "543838386"
@@ -4374,7 +4374,7 @@ Road {
   rightBorder FALSE
   leftBorder FALSE
   wayPoints [
-    0 0 0
+    -1.7 0 0
     3.574327 -0.255205 0
     5.892193 -0.422282 0
   ]
@@ -4383,14 +4383,6 @@ Road {
   ]
   endingAngle [
     0.071958
-  ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-  ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
   ]
   splineSubdivision 0
 }
@@ -4553,37 +4545,6 @@ Road {
   ]
   endingAngle [
     0.053824
-  ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-  ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-  ]
-  splineSubdivision 0
-}
-Road {
-  translation 201.786677 -79.669585 0.01
-  name "road(31)"
-  id "924782773"
-  startJunction "8582641087"
-  endJunction "8582641089"
-  width 4
-  numberOfLanes 1
-  speedLimit 13.888889
-  lines []
-  rightBorder FALSE
-  leftBorder FALSE
-  wayPoints [
-    0 0 0
-    0.472439 3.961349 0
-    3.108854 54.709834 0
-  ]
-  startingAngle [
-    -1.452095
-  ]
-  endingAngle [
-    -1.518892
   ]
   startLine [
     "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
@@ -5711,9 +5672,11 @@ Road {
   speedLimit 13.888889
   lines [
     RoadLine {
-      type "continuous"
+      color 0.960784 0.760784 0.0666667
+      type "double"
     }
     RoadLine {
+      type "continuous"
     }
   ]
   wayPoints [
@@ -5746,13 +5709,14 @@ Road {
   speedLimit 27.777778
   lines [
     RoadLine {
-      type "continuous"
+      color 0.960784 0.760784 0.0666667
+      type "double"
     }
     RoadLine {
     }
   ]
   wayPoints [
-    0 0 0
+    2 -0.14 0
     -8.958647 0.60289 0
   ]
   startingAngle [
@@ -5780,9 +5744,11 @@ Road {
   speedLimit 13.888889
   lines [
     RoadLine {
+      type "continuous"
     }
     RoadLine {
-      type "continuous"
+      color 0.960784 0.760784 0.0666667
+      type "double"
     }
   ]
   wayPoints [
@@ -5816,7 +5782,8 @@ Road {
   speedLimit 27.777778
   lines [
     RoadLine {
-      type "continuous"
+      color 0.960784 0.760784 0.0666667
+      type "double"
     }
     RoadLine {
     }
@@ -5848,8 +5815,8 @@ Road {
     }
   ]
   wayPoints [
-    -0.075 1.2 0
-    -1.739401 -29.442665 0
+    -0.065 1.2 0
+    -0.8 -16.9 0
   ]
   startingAngle [
     -4.65338
@@ -5924,7 +5891,8 @@ Road {
   id "1221242914"
   startJunction "11323214368"
   endJunction "64577340"
-  width 8
+  width 4
+  numberOfLanes 1
   numberOfForwardLanes 2
   speedLimit 13.888889
   wayPoints [
@@ -5952,11 +5920,12 @@ Road {
   id "1221242915"
   startJunction "11323267269"
   endJunction "11323214368"
-  width 8
+  width 4
+  numberOfLanes 1
   numberOfForwardLanes 2
   speedLimit 13.888889
   wayPoints [
-    0 0 0
+    0 2 0
     0.092532 -19.322813 0
   ]
   startingAngle [
@@ -6197,68 +6166,6 @@ Road {
   ]
   endingAngle [
     -3.065043
-  ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-  ]
-  splineSubdivision 0
-}
-Road {
-  translation 157.047614 -18.719239 0.01
-  name "road(54)"
-  id "8855371_1"
-  startJunction "1039758476"
-  endJunction "8582641089"
-  width 4
-  numberOfLanes 1
-  speedLimit 13.888889
-  lines []
-  wayPoints [
-    0 0 0
-    4.819463 -0.231664 0
-    44.059774 -2.059752 0
-  ]
-  startingAngle [
-    0.048031
-  ]
-  endingAngle [
-    0.046553
-  ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-  ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-  ]
-  splineSubdivision 0
-}
-Road {
-  translation 209.098724 -21.15121 0.01
-  name "road(55)"
-  id "8855371_2"
-  startJunction "8582641089"
-  endJunction "1039711310"
-  width 4
-  numberOfLanes 1
-  speedLimit 13.888889
-  lines []
-  wayPoints [
-    0 0 0
-    81.963837 -3.816935 0
-    86.734622 -4.078087 0
-  ]
-  startingAngle [
-    0.046535
-  ]
-  endingAngle [
-    0.846159
-  ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
   ]
   endLine [
     "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
@@ -8599,46 +8506,6 @@ Road {
   splineSubdivision 0
 }
 Road {
-  translation 301.579288 -29.549729 0.01
-  name "12th Avenue(5)"
-  id "1220969900_1"
-  startJunction "1039711310"
-  endJunction "5813186405"
-  width 12
-  numberOfLanes 3
-  numberOfForwardLanes 2
-  speedLimit 13.888889
-  lines [
-    RoadLine {
-    }
-    RoadLine {
-      type "continuous"
-    }
-  ]
-  wayPoints [
-    0 0 0
-    -0.070492 -1.14768 0
-  ]
-  startingAngle [
-    -4.651045
-  ]
-  endingAngle [
-    -4.651045
-  ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-  ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-  ]
-  splineSubdivision 0
-  turnLanesForward "left|none"
-}
-Road {
   translation 300.993387 -38.680749 0.01
   name "12th Avenue(6)"
   id "1220969900_2"
@@ -8650,16 +8517,18 @@ Road {
   speedLimit 13.888889
   lines [
     RoadLine {
+      type "continuous"
     }
     RoadLine {
-      type "continuous"
+      color 0.960784 0.760784 0.0666667
+      type "double"
     }
   ]
   wayPoints [
-    0 0 0
+    -1.3 2 0
     -2.520298 -37.226526 0
     -2.712748 -40.130274 0
-    -3.181355 -47.06714 0
+    -3.18135 -47.0671 0
   ]
   startingAngle [
     -4.64479
@@ -8667,15 +8536,75 @@ Road {
   endingAngle [
     -4.644938
   ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-  ]
   endLine [
     "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
     "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
     "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
+  ]
+  splineSubdivision 0
+  turnLanesForward "left|none"
+}
+Road {
+  translation 300.993 -28.6807 0.01
+  name "12th Avenue(5)"
+  id "1220969900_2"
+  startJunction "5813186405"
+  endJunction "1039726678"
+  width 12
+  numberOfLanes 3
+  numberOfForwardLanes 2
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+    RoadLine {
+      color 0.960784 0.760784 0.0666667
+      type "double"
+    }
+  ]
+  wayPoints [
+    -1.17 -0.1 0
+    -1.17 -4.1 0
+  ]
+  startingAngle [
+    -4.64479
+  ]
+  endingAngle [
+    -4.644938
+  ]
+  splineSubdivision 0
+  turnLanesForward "left|none"
+}
+Road {
+  translation 300.993 -32.6807 0.01
+  name "12th Avenue(20)"
+  id "1220969900_2"
+  startJunction "5813186405"
+  endJunction "1039726678"
+  width 12
+  numberOfLanes 3
+  numberOfForwardLanes 2
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+      type "continuous"
+    }
+    RoadLine {
+      color 0.960784 0.760784 0.0666667
+      type "double"
+    }
+  ]
+  leftBorder FALSE
+  wayPoints [
+    -1.17 -0.1 0
+    -1.3 -4.1 0
+  ]
+  startingAngle [
+    -4.64479
+  ]
+  endingAngle [
+    -4.644938
   ]
   splineSubdivision 0
   turnLanesForward "left|none"
@@ -9872,40 +9801,6 @@ Road {
   splineSubdivision 0
 }
 Road {
-  translation 378.470931 185.309422 0.01
-  name "Paul W Bryant Drive(34)"
-  id "1220678158_1"
-  startJunction "11311211324"
-  endJunction "12110379708"
-  width 12
-  numberOfLanes 3
-  numberOfForwardLanes 2
-  speedLimit 27.777778
-  lines [
-    RoadLine {
-    }
-    RoadLine {
-      type "continuous"
-    }
-  ]
-  wayPoints [
-    0 0 0
-    -8.726382 0.578624 0
-  ]
-  startingAngle [
-    -3.075382
-  ]
-  endingAngle [
-    -3.075382
-  ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-  ]
-  splineSubdivision 0
-}
-Road {
   translation 361.762023 186.416509 0.01
   name "Paul W Bryant Drive(35)"
   id "1220678158_2"
@@ -9919,23 +9814,19 @@ Road {
     RoadLine {
     }
     RoadLine {
-      type "continuous"
+      color 0.960784 0.760784 0.0666667
+      type "double"
     }
   ]
   wayPoints [
-    0 0 0
-    -1.756355 0.116091 0
+    16.9 -1.12 0
+    -3.76 0.25 0
   ]
   startingAngle [
     -3.075591
   ]
   endingAngle [
     -3.075591
-  ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
   ]
   splineSubdivision 0
 }
@@ -9950,9 +9841,11 @@ Road {
   speedLimit 13.888889
   lines [
     RoadLine {
-      type "continuous"
+      color 0.960784 0.760784 0.0666667
+      type "double"
     }
     RoadLine {
+      type "continuous"
     }
   ]
   wayPoints [
@@ -10005,11 +9898,6 @@ Road {
   endingAngle [
     -4.651115
   ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-  ]
   splineSubdivision 0
   turnLanesBackward "left|none"
 }
@@ -10023,7 +9911,8 @@ Road {
   speedLimit 13.888889
   lines [
     RoadLine {
-      type "continuous"
+      color 0.960784 0.760784 0.0666667
+      type "double"
     }
   ]
   wayPoints [
@@ -10035,10 +9924,6 @@ Road {
   ]
   endingAngle [
     -4.65184
-  ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
   ]
   splineSubdivision 0
 }
@@ -21769,4 +21654,26 @@ DEF parking Pose {
       castShadows FALSE
     }
   ]
+}
+AddLaneRoadSegment {
+  translation 303 -9 0.01
+  rotation 0 0 1 -1.63
+  connectedRoadIDs [
+    "1220969902"
+  ]
+  width 8
+  newLaneLeft FALSE
+  lines [
+    RoadLine {
+      color 0.960784 0.760784 0.0666667
+      type "double"
+    }
+    RoadLine {
+    }
+  ]
+}
+CrossRoadsTrafficLight {
+  translation 315.61 188.8 0
+  rotation 0 0 1 -0.04
+  size 16 16
 }

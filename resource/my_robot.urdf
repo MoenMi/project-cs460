@@ -1,6 +1,0 @@
-<?xml version="1.0" ?>
-<robot name="My robot">
-    <webots>
-        <plugin type="project-cs460.my_robot_driver.MyRobotDriver" />
-    </webots>
-</robot>
