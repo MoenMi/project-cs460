@@ -22,8 +22,8 @@ WorldInfo {
   lineScale 4
 }
 Viewpoint {
-  orientation -0.4031861962585135 -0.4416655931560547 0.8014813753099329 4.582626956073375
-  position 292.7874890917938 299.9389824195499 202.93579654231925
+  orientation -0.12871854063051225 -0.045111379661027864 0.9906545819421771 3.8099663388350677
+  position 482.3847534926314 347.64165635397103 86.09863905777685
   near 3
 }
 TexturedBackground {
@@ -194,9 +194,169 @@ StopSign {
   name "stop sign(1)"
 }
 StopSign {
+  translation 290.68 -94.68 0
+  rotation 0 0 1 3.14159
+  name "stop sign(3)"
+}
+StopSign {
   translation 256.81 200.23 0
   rotation 0 0 -1 -1.5707953071795862
   name "stop sign(2)"
+}
+StopSign {
+  translation 302.36 -95.05 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(4)"
+}
+StopSign {
+  translation 304.95 -85.13 0
+  rotation 0 0 1 1.01503e-06
+  name "stop sign(5)"
+}
+StopSign {
+  translation 285.73 -340.31 0
+  rotation 0 0 1 1.01503e-06
+  name "stop sign(6)"
+}
+StopSign {
+  translation 276.94 -346.62 0
+  rotation 0 0 1 3.14159
+  name "stop sign(7)"
+}
+StopSign {
+  translation 272.72 -414.04 0
+  rotation 0 0 1 3.14159
+  name "stop sign(8)"
+}
+StopSign {
+  translation 146.48 -211.84 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(9)"
+}
+StopSign {
+  translation 139.14 -202.65 0
+  rotation 0 0 1 1.5708
+  name "stop sign(10)"
+}
+StopSign {
+  translation 156.32 -76.05 0
+  rotation 0 0 1 1.01503e-06
+  name "stop sign(11)"
+}
+StopSign {
+  translation 161.49 192.18 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(12)"
+}
+StopSign {
+  translation 113.99 195.58 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(13)"
+}
+StopSign {
+  translation 67.85 197.93 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(14)"
+}
+StopSign {
+  translation 57.62 212.85 0
+  rotation 0 0 1 1.5708
+  name "stop sign(15)"
+}
+StopSign {
+  translation -135.34 211.86 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(16)"
+}
+StopSign {
+  translation -149.02 227.04 0
+  rotation 0 0 1 1.5708
+  name "stop sign(17)"
+}
+StopSign {
+  translation -251.59 233.75 0
+  rotation 0 0 1 1.5708
+  name "stop sign(18)"
+}
+StopSign {
+  translation -247.21 219.2 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(19)"
+}
+StopSign {
+  translation -356.395 -136.27 0
+  rotation 0 0 1 -2.8797953071795863
+  name "stop sign(20)"
+}
+StopSign {
+  translation -357.434 -254.243 0
+  rotation 0 0 1 -2.8797953071795863
+  name "stop sign(21)"
+}
+StopSign {
+  translation 64.9 -205.51 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(22)"
+}
+StopSign {
+  translation 57.81 -197 0
+  rotation 0 0 1 1.5708
+  name "stop sign(23)"
+}
+StopSign {
+  translation -36.06 -199.48 0
+  rotation 0 0 1 -1.5707953071795862
+  name "stop sign(24)"
+}
+StopSign {
+  translation -43.7 -190.73 0
+  rotation 0 0 1 1.5708
+  name "stop sign(25)"
+}
+StopSign {
+  translation -144.99 -183.43 0
+  rotation 0 0 1 1.5708
+  name "stop sign(26)"
+}
+StopSign {
+  translation -136.61 -184.18 0
+  rotation 0 0 -1 -5.307179586466759e-06
+  name "stop sign(27)"
+}
+StopSign {
+  translation -145.5 -190.54 0
+  rotation 0 0 1 -3.1415853071795863
+  name "stop sign(28)"
+}
+StopSign {
+  translation -241.65 -186.59 0
+  rotation 0 0 -1 1.57079
+  name "stop sign(29)"
+}
+StopSign {
+  translation -343.11 -171.99 0
+  rotation 0 0 1 6.32203e-06
+  name "stop sign(30)"
+}
+StopSign {
+  translation -144.04 -28.27 0
+  rotation 0 0 1 1.5708
+  name "stop sign(31)"
+}
+StopSign {
+  translation -144.41 -36.01 0
+  rotation 0 0 1 -3.1415853071795863
+  name "stop sign(32)"
+}
+StopSign {
+  translation -136.73 -36.31 0
+  rotation 0 0 -1 1.57079
+  name "stop sign(33)"
+}
+StopSign {
+  translation -136.34 -28.41 0
+  rotation 0 0 1 6.32203e-06
+  name "stop sign(34)"
 }
 Crossroad {
   translation 64.783387 -45.709219 0.01
@@ -421,15 +581,11 @@ Crossroad {
   name "crossroad(13)"
   id "1039726678"
   shape [
-    4.13243 -1.709684 0
-    2.275108 -3.85018 0
-    0.404397 -5.986356 0
+    4.9 -5.98636 0
     -3.586507 -6.255954 0
     -4.395301 5.716758 0
     -0.404397 5.986356 0
-    1.762125 4.110343 0
-    3.847205 2.280134 0
-    4.13243 -1.709684 0
+    4 6.4 0
   ]
   connectedRoadIDs [
     "1220678212_3"
@@ -1388,25 +1544,6 @@ Crossroad {
   ]
 }
 Crossroad {
-  translation 397.03248 -96.15176 0.01
-  name "crossroad(80)"
-  id "5257190316"
-  shape [
-    4.136419 -1.700011 0
-    2.250622 -3.864544 0
-    -1.741262 -4.119224 0
-    -2.250847 3.864413 0
-    1.741022 4.119326 0
-    3.84186 2.289129 0
-    4.136419 -1.700011 0
-  ]
-  connectedRoadIDs [
-    "1220678212_1"
-    "1220678212_2"
-    "543838385_1"
-  ]
-}
-Crossroad {
   translation 293.941677 -139.644016 0.01
   name "crossroad(81)"
   id "5257190318"
@@ -1792,25 +1929,6 @@ Crossroad {
     "614563164_1"
     "614563164_2"
     "614563166"
-  ]
-}
-Crossroad {
-  translation 347.06367 -92.960852 0.01
-  name "crossroad(104)"
-  id "5813186397"
-  shape [
-    2.250847 -3.864413 0
-    -1.741022 -4.119326 0
-    -3.895359 -2.196856 0
-    -4.0947 1.798174 0
-    -2.250541 3.864591 0
-    1.741348 4.119188 0
-    2.250847 -3.864413 0
-  ]
-  connectedRoadIDs [
-    "1220678212_2"
-    "1220678212_3"
-    "614563172_1"
   ]
 }
 Crossroad {
@@ -2916,25 +3034,6 @@ Crossroad {
   ]
 }
 Crossroad {
-  translation 201.312985 -83.641438 0.01
-  name "crossroad(169)"
-  id "8582641087"
-  shape [
-    2.251167 -3.864227 0
-    -1.740681 -4.11947 0
-    -3.735007 -2.459619 0
-    -4.208699 1.512234 0
-    -2.25075 3.86447 0
-    1.741126 4.119282 0
-    2.251167 -3.864227 0
-  ]
-  connectedRoadIDs [
-    "1220969901_1"
-    "1220969901_2"
-    "924782773"
-  ]
-}
-Crossroad {
   translation 60.306161 206.164583 0.01
   name "crossroad(171)"
   id "8584804513"
@@ -3655,28 +3754,6 @@ Road {
   endLine [
     "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
     "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-  ]
-  splineSubdivision 0
-}
-Road {
-  translation 130.608454 -333.456902 0.01
-  name "Dearing Place"
-  id "8884183"
-  startJunction "64439364"
-  width 4
-  numberOfLanes 1
-  speedLimit 13.888889
-  lines []
-  wayPoints [
-    0 0 0
-    -29.550648 1.524192 0
-  ]
-  startingAngle [
-    -3.090059
-  ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
   ]
   splineSubdivision 0
 }
@@ -7710,10 +7787,14 @@ Road {
   name "12th Street(1)"
   id "1220678212_1"
   endJunction "5257190316"
-  width 4
-  numberOfLanes 1
+  width 8
   speedLimit 13.888889
-  lines []
+  lines [
+    RoadLine {
+      color 0.960784 0.760784 0.0666667
+      type "double"
+    }
+  ]
   wayPoints [
     -148.71421 9.464453 0
     -162.792661 10.370252 0
@@ -7723,9 +7804,28 @@ Road {
   endingAngle [
     -3.07788
   ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
+  splineSubdivision 0
+}
+Road {
+  translation 553 -106 0.01
+  name "12th Street(6)"
+  id "1220678212_1"
+  endJunction "5257190316"
+  width 8
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+      color 0.960784 0.760784 0.0666667
+      type "double"
+    }
+  ]
+  leftBorder FALSE
+  wayPoints [
+    -151.9 9.6 0
+    -160 10.1 0
+  ]
+  endingAngle [
+    -3.07788
   ]
   splineSubdivision 0
 }
@@ -8449,10 +8549,14 @@ Road {
   id "1220678212_2"
   startJunction "5257190316"
   endJunction "5813186397"
-  width 4
-  numberOfLanes 1
+  width 8
   speedLimit 13.888889
-  lines []
+  lines [
+    RoadLine {
+      color 0.960784 0.760784 0.0666667
+      type "double"
+    }
+  ]
   wayPoints [
     0 0 0
     -41.985071 2.681083 0
@@ -8463,13 +8567,32 @@ Road {
   endingAngle [
     -3.077821
   ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
+  splineSubdivision 0
+}
+Road {
+  translation 352 -94.3 0.01
+  name "12th Street(4)"
+  id "1220678212_2"
+  startJunction "5257190316"
+  endJunction "5813186397"
+  width 8
+  speedLimit 13.888889
+  lines [
+    RoadLine {
+      color 0.960784 0.760784 0.0666667
+      type "double"
+    }
   ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
+  rightBorder FALSE
+  wayPoints [
+    -0.94 1.1 0
+    -8.94 1.6 0
+  ]
+  startingAngle [
+    -3.077821
+  ]
+  endingAngle [
+    -3.077821
   ]
   splineSubdivision 0
 }
@@ -8479,25 +8602,20 @@ Road {
   id "1220678212_3"
   startJunction "5813186397"
   endJunction "1039726678"
-  width 4
-  numberOfLanes 1
+  width 8
   speedLimit 13.888889
-  lines []
+  lines [
+    RoadLine {
+      color 0.960784 0.760784 0.0666667
+      type "double"
+    }
+  ]
   wayPoints [
     0 0 0
-    -32.969934 2.10277 0
-    -35.960781 2.29598 0
-    -39.559589 2.548529 0
+    -39.54 2.56 0
   ]
   startingAngle [
     -3.077901
-  ]
-  endingAngle [
-    -2.290039
-  ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
   ]
   endLine [
     "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
@@ -9121,7 +9239,7 @@ Road {
   id "1220969901_1"
   startJunction "1039726678"
   endJunction "8582641087"
-  width 4
+  width 8
   numberOfLanes 1
   speedLimit 13.888889
   lines []
@@ -9129,45 +9247,13 @@ Road {
     0 0 0
     -4.646696 0.272809 0
     -6.920122 0.417881 0
-    -86.299538 5.493487 0
+    -135 8.1 0
   ]
   startingAngle [
     -3.074142
   ]
   endingAngle [
     -3.077738
-  ]
-  startLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-  ]
-  endLine [
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_triangle.png"
-    "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
-  ]
-  splineSubdivision 0
-}
-Road {
-  translation 197.321109 -83.386626 0.01
-  name "12th Street(8)"
-  id "1220969901_2"
-  startJunction "8582641087"
-  endJunction "64439339"
-  width 4
-  numberOfLanes 1
-  speedLimit 13.888889
-  lines []
-  wayPoints [
-    0 0 0
-    -33.892292 2.163435 0
-    -36.258858 2.320117 0
-    -40.51293 2.594356 0
-  ]
-  startingAngle [
-    -3.077846
-  ]
-  endingAngle [
-    -3.077217
   ]
   startLine [
     "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/textures/road_line_dashed.png"
@@ -10928,10 +11014,14 @@ Road {
   id "8866164_1"
   startJunction "1039726678"
   endJunction "5257190318"
-  width 4
-  numberOfLanes 1
+  width 8
   speedLimit 13.888889
-  lines []
+  lines [
+    RoadLine {
+      color 0.960784 0.760784 0.0666667
+      type "double"
+    }
+  ]
   wayPoints [
     0 0 0
     -0.429414 -6.006778 0
@@ -21676,4 +21766,10 @@ CrossRoadsTrafficLight {
   translation 315.61 188.8 0
   rotation 0 0 1 -0.04
   size 16 16
+}
+CrossRoadsTrafficLight {
+  translation -353.025 224.516 0
+  rotation 0 0 1 0.025
+  name "cross road traffic light(1)"
+  size 16 22
 }
