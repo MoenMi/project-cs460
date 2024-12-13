@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf install build
 colcon build
 source install/setup.bash
 

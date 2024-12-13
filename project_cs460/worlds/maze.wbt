@@ -1,0 +1,128 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/devices/robotis/protos/RobotisLds01.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/turtlebot/protos/TurtleBot3Burger.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.5477133570594713 -0.5502036047814212 0.6303063317024299 4.2705064343698
+  position -0.04120420200367364 4.574137675010276 31.863996719269952
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+TurtleBot3Burger {
+  translation -0.559 -0.0183 0
+  rotation -0.0011897999483280344 -0.018296923575128597 -0.9998318893512894 0.126
+  controller "<extern>"
+  controllerArgs [
+    ""
+  ]
+  extensionSlot [
+    Solid {
+      name "imu_link"
+    }
+    InertialUnit {
+      name "inertial_unit"
+    }
+    RobotisLds01 {
+    }
+  ]
+}
+RectangleArena {
+  floorSize 15 15
+  floorTileSize 3 3
+}
+Wall {
+  translation -7.39 0 0
+  size 0.2 15 1
+}
+Wall {
+  translation 7.67 0 0
+  rotation 1 0 0 4.692820414042842e-06
+  name "wall(1)"
+  size 0.2 15 1
+}
+Wall {
+  translation -0.02591 -7.36586 0
+  rotation 0 0 1 1.57
+  name "wall(2)"
+  size 0.2 15 1
+}
+Wall {
+  translation 0.28593 7.4839 0
+  rotation 0 0 1 1.57
+  name "wall(3)"
+  size 0.2 15 1
+}
+Wall {
+  translation 4.89219 2.73034 0
+  rotation 0 0 1 1.57
+  name "wall(4)"
+  size 0.2 5 1
+}
+Wall {
+  translation -4.91781 2.73818 0
+  rotation 0 0 1 1.57
+  name "wall(5)"
+  size 0.2 5 1
+}
+Wall {
+  translation -4.92181 -2.22182 0
+  rotation 0 0 1 1.57
+  name "wall(6)"
+  size 0.2 5 1
+}
+Wall {
+  translation 4.90819 -2.22964 0
+  rotation 0 0 1 1.57
+  name "wall(7)"
+  size 0.2 5 1
+}
+Wall {
+  translation -2.41013 6.45818 0
+  name "wall(8)"
+  size 0.2 2 1
+}
+Wall {
+  translation -2.41013 -5.50182 0
+  name "wall(15)"
+  size 0.2 1.5 1
+}
+Wall {
+  translation -2.31394 -4.85397 0
+  rotation 0 0 1 1.57
+  name "wall(14)"
+  size 0.2 10 1
+}
+Wall {
+  translation -2.29013 -2.13182 0
+  name "wall(9)"
+  size 0.2 3 1
+}
+Wall {
+  translation 2.16987 2.60818 0
+  name "wall(10)"
+  size 0.2 3 1
+}
+Wall {
+  translation -2.31013 2.53818 0
+  name "wall(11)"
+  size 0.2 3 1
+}
+Wall {
+  translation 2.07987 6.34818 0
+  name "wall(12)"
+  size 0.2 2 1
+}
+Wall {
+  translation 2.19987 -2.03182 0
+  name "wall(13)"
+  size 0.2 3 1
+}
